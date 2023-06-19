@@ -12,6 +12,7 @@ seaborn = "*"
 scikit-learn = "*"
 sympy = "*"
 plotnine = "*"
+statsmodels = "*"
 
 [dev-packages]
 
