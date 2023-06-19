@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fedfeb4e89eb3e4208cd053078570c6b1b613089cfb98d60a865b1f0b1dfb5fe"
+            "sha256": "4d5d40815aacd4a656cbbc39e7fab62c3dd55408dc7970db48e620450aa0904e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,20 @@
         ]
     },
     "default": {
+        "adjusttext": {
+            "hashes": [
+                "sha256:6da99f9d739c496f79346753a3fcadb6354d8d09699cde112fed46cfb837d271",
+                "sha256:bb0682bb53abb626d6afc9c1db108ccb67f2c35ddc8d20ac6a802c756c07ee17"
+            ],
+            "version": "==0.8"
+        },
+        "bioinfokit": {
+            "hashes": [
+                "sha256:4084c7e3d1fdd94bacfbb45e310f1650e99cb10d125651b655f539376860489a"
+            ],
+            "index": "pypi",
+            "version": "==2.1.0"
+        },
         "contourpy": {
             "hashes": [
                 "sha256:052cc634bf903c604ef1a00a5aa093c54f81a2612faedaa43295809ffdde885e",
@@ -237,6 +251,12 @@
             ],
             "index": "pypi",
             "version": "==3.7.1"
+        },
+        "matplotlib-venn": {
+            "hashes": [
+                "sha256:bbf12f2a066c7f8448793b35a307b192004ba4bd8bba133bce09165dbdc9528b"
+            ],
+            "version": "==0.11.9"
         },
         "mizani": {
             "hashes": [
@@ -537,6 +557,21 @@
             ],
             "index": "pypi",
             "version": "==1.12"
+        },
+        "tabulate": {
+            "hashes": [
+                "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c",
+                "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==0.9.0"
+        },
+        "textwrap3": {
+            "hashes": [
+                "sha256:5008eeebdb236f6303dcd68f18b856d355f6197511d952ba74bc75e40e0c3414",
+                "sha256:bf5f4c40faf2a9ff00a9e0791fed5da7415481054cef45bb4a3cfb1f69044ae0"
+            ],
+            "version": "==0.9.2"
         },
         "threadpoolctl": {
             "hashes": [
