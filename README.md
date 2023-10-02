@@ -2,20 +2,16 @@
 # Hypothesis Testing Exercises with Python
 <!-- endhide -->
 
-Inside this repository, you will find a file called `./notebook/problems.ipynb` with the exercises you need to finish to complete it.
+In this repo you can find methods of testing out Hypothesis from data you are presented using Python, NumPy, SciPy, Pandas. 
+It's key knowledge for any aspiring Data Scientist to test out Hypothesis to understand the data they are presented, but also to understand accuracy of your hypothesis to rule out Null Hypothesis. 
 
-## 🌱 How to start this project
+## 📒 Key Takes
 
-This project and its repository comes with the necessary files to start working.
+In this Jupyter Notebook we dive into Seaborn / Matplotlib along SciPy and NumPy to plot and work the data towards testing out or Null Hypothesis. 
+It's fundamental to always start by analyzing the data and nothing better then Seaborn / Matplotlib to visualize the data. It makes the process of exploring data much easier to understand but also to explain to others how the data is distributed and what it means, just like we can see below when trying to see if the data matches with our hypothesis 📝
 
-1. Make a fork of [this repository](https://github.com/4GeeksAcademy/hypothesis-testing-exercises-project-with-python) into your github account.
-2. Open the recently created fork repository using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
-3. Once it has finished opening you can go ahead and open the `problems.ipynb` file and start solving each exercise inside the notebook.
+<img src="https://github.com/4GeeksAcademy/gustavolima-hypothesis-testing-exercises-project-with-python/blob/main/notebook/assets/hypothesis.png" width="200">
 
-## 🚛 How to deliver this project
+SciPy, especially .stats module is important for Hypothesis testing, as it allows us to run t-tests to get our p-value, which will allow us to Reject or not the Null Hypothesis. 
+You don't need to be a Probability / Statistics wizards to understand all this, but it helps have some knowledge and dive in the subject if you haven't experience from beforehand. 
 
-Once you are finished solving the exercises make sure to commit your changes, push to your repository fork and go to 4Geeks.com to upload the repository link.
-
-## Solutions
-
-We also incorporated a `solutions.ipynb` file that we strongly suggest you only use if you are stuck for more than 30min or if you have already finished and want to compare it with your approach.
